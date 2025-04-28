@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nim Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Nim Game</h1>
+
+    <div id="message"></div>
+
+    <div id="turnSelection" class="button-group">
+        <button onclick="selectTurn('先行')">先行</button>
+        <button onclick="selectTurn('後攻')">後攻</button>
+    </div>
+
+    <div id="gameArea" style="display: none;">
+        <div id="turnDisplay"></div>
+        <div id="piles"></div>
+
+        <div id="playerAction">
+            <select id="pileSelect">
+                <option value="A">山A</option>
+                <option value="B">山B</option>
+                <option value="C">山C</option>
+            </select>
+            <input type="number" id="stonesInput" min="1" placeholder="取る数">
+            <button onclick="playerMove()">決定</button>
+        </div>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h2 id="winnerMessage"></h2>
+        <button onclick="restartGame()">もう一度</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

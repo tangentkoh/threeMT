@@ -1,0 +1,79 @@
+body {
+    background-color: #00172d;
+    color: #fff6c2;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.button-group button {
+    margin: 10px;
+    padding: 16px 32px;
+    font-size: 24px;
+    background-color: #003366;
+    color: #fff6c2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #005fbd;
+}
+
+#playerAction {
+    margin-top: 20px;
+}
+
+#playerAction select, #playerAction input {
+    margin: 6px;
+    padding: 6px;
+    font-size: 24px;
+}
+
+#playerAction button {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #006400;
+    color: #fff6c2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#playerAction button:hover {
+    background-color: #228B22;
+}
+
+#result button {
+    margin-top: 20px;
+    padding: 16px 32px;
+    font-size: 20px;
+    background-color: #8b0000;
+    color: #fff6c2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#result button:hover {
+    background-color: #b22222;
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#piles {
+    font-size: 24px;
+}
+
+#turnDisplay {
+    font-size: 24px;
+}
